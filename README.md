@@ -1,8 +1,6 @@
 # cy-fir.github.io
 
-[![Circle CI](https://circleci.com/gh/sroberts/sroberts.github.io.svg?style=svg)](https://circleci.com/gh/sroberts/sroberts.github.io)
-
-[![CircleCI](https://circleci.com/gh/cy-fir/cy-fir.github.io/tree/gh-pages.svg?style=svg](https://circleci.com/gh/cy-fir/cy-fir.github.io)
+[![Circle CI](https://circleci.com/gh/cy-fir/cy-fir.github.io.svg?style=svg](https://circleci.com/gh/cy-fir/cy-fir.github.io)
 
 I feel the need, the need for speed
 
