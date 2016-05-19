@@ -1,15 +1,14 @@
 ---
 layout: page
 title: About
-permalink: /about/
+# permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<!--<p class="message">
+  Hey there! This page is included in Hyde as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>-->
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+![@cy-fir](https://s.gravatar.com/avatar/57b782d563c6d96b2a61ffc6ae12e8f4?s=80)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Bio
+funtimes with runtimes, chai walla, bad guy catcher, baywatch lifeguard reject, anti-zombie, and turning 0Days to Onezies 

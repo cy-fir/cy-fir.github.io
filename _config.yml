@@ -6,14 +6,61 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: @cy-fir | Cyber Forensics Incident Response
-email: rami@shaath.ca
-description: > # this means to ignore newlines until "baseurl:"
-  Cyber Forensics Incident Reponse Malware Reverse Engineer (Meta and feed.xml)
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cy-fir.github.io/" # the base hostname & protocol for your site
-twitter_username: ramishaath
-github_username:  cy-fir
+# title: @cy-fir | Cyber Forensics Incident Response
+#email: rami@shaath.ca
+# description: > # this means to ignore newlines until "baseurl:"
+#  Cyber Forensics Incident Reponse Malware Reverse Engineer (Meta and feed.xml)
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://cy-fir.github.io/" # the base hostname & protocol for your site
+# twitter_username: ramishaath
+# github_username:  cy-fir
 
-# Build settings
-markdown: kramdown
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough"]
+exclude: [vendor]
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+name:             '@cy-fir'
+title:            '@cy-fir at Github'
+tagline:          'cyber forensics advanced persistent incident responder'
+description:      'bad guy catcher'
+url:              http://cy-fir.github.io
+baseurl:          /
+
+author:
+  name:           'Rami Shaath'
+  url:            'https://twitter.com/ramishaath'
+  email:          'rami@shaath.ca'
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  main:           https://github.com/cy-fir
+  repo_url:       https://github.com/cy-fir/cy-fir.github.io
+
+twitter:
+  main:           https://www.twitter.com/ramishaath
+
+linkedin:
+  main:           http://www.linkedin.com/in/rshaath
+
+pgp:
+  main:           https://pgp.mit.edu/pks/lookup?op=get&search=0x43716AB7C488042D
+
+rss:
+  main:          http://cy-fir.github.io/feed.xml
+
+gems:
+- jemoji
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-paginate
